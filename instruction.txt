@@ -1,0 +1,36 @@
+"T28 - TCP Congestion Control Algorithms Implementation"
+**Tech Focus:** TCP Reno, Cubic, BBR algorithms, window management  
+**Demo:** Network congestion simulation với different algorithms  
+**Innovation:** Understanding TCP performance optimization  
+**Languages:** Python (simulation)  
+
+
+
+
+# Slide 4 phần, thuyết trình từ 10-12 phút, viết vào marp-deck.md
+
+style đơn giản, hiện đại, có hình ảnh
+
+1. Giới thiệu qua về Window Management
+2. Thuật toán TCP Reno
+3. Thuật toán TCP CUBIC
+4. Thuật toán TCP BBR
+
+thuật toán nên có:
+nói qua về thời gian ra mắt, người sáng lập, phiên bản mới nhất hiện nay
+mục tiêu so với phương pháp trước đó
+ý tưởng chính
+công thức tính toán
+đồ thị biểu diễn truyền tải (bạn hãy tự vẽ, có thể bằng python hoặc gì dễ hơn ít tốn token hơn)
+ưu việt thực tế, nhược điểm
+
+# Script nói thuyết trình cho từng slide
+
+# Live demo python
+
+- là một ứng dụng GUI offline, hiển thị 3 đồ thị biểu diễn truyền tải chạy thời gian thực
+- có nút bấm/thanh trượt để điều chỉnh các tham số môi trường như:
+    - nút mất gói tin
+    - thanh trượt thay đổi ping? (những thông số ảnh hưởng đến thuật toán)
+    - hiển thị tĩnh các tham số thuật toán trên màn hình, tham số nên hợp lý để khi ví dụ bấm mất gói tin có thể thấy
+    đồ thị thay đổi rõ ràng
