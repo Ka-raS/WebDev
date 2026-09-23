@@ -107,7 +107,7 @@ class AlgoRow:
         p.setMouseEnabled(x=False, y=False)
         p.hideButtons()
         p.setLabel("left", f"<b>{cls.name}</b> — gói", color=cls.color)
-        p.addLegend(offset=(-10, 8), labelTextSize="9pt", brush=pg.mkBrush(255, 255, 255, 200))
+        p.addLegend(offset=(10, -10), colCount=3, labelTextSize="9pt", brush=pg.mkBrush(255, 255, 255, 200))
         c = QtGui.QColor(cls.color)
         faint = QtGui.QColor(c)
         faint.setAlpha(140)
